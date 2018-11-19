@@ -13,7 +13,6 @@ class Anagram
       if a.split("").sort != @word.split("").sort
         array.delete(a)
       end
-      binding.pry
     end
     array
   end
